@@ -1,0 +1,120 @@
+html {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b5a70;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', cursive;
+}
+
+.title {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', cursive;
+}
+
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    float: center;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #081d46;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+input[type=button][name="add"] 
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="minus"] 
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="mul"] 
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="div"] 
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="clear"] 
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="DoIt"]
+{
+    background-color: #1f8ceb;
+}
+input[type=button][name="add"]:hover
+{
+    background-color: #ff0000;
+}
+input[type=button][name="minus"]:hover
+{
+    background-color: #ff0000;
+}
+input[type=button][name="mul"]:hover 
+{
+    background-color: #ff0000;
+}
+input[type=button][name="div"]:hover
+{
+    background-color: #ff0000;
+}
+input[type=button][name="clear"]:hover
+{
+    background-color: #ff0000;
+}
+input[type=button][name="DoIt"]:hover
+{
+    background-color: #ff0000;
+}
+
+
+input[type=text] {
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+}
+
+.calculator {
+    background-color: #101ad6;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+#display {
+    height: 40px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 18px;
+    left: 2px;
+    top: 2px;
+    color: #1f8ceb;
+    box-shadow: 10px 10px 20px #545454;
+}
